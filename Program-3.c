@@ -1,3 +1,4 @@
+
 // Fill in the missing code in the below sample code which concatenates two given strings and store the result in another string.
 //Instructions:-
 // 1)Read two strings from the standard input device and write a loop to copy each character of the first string into third string till the end of the first string.
@@ -18,16 +19,16 @@ int main() {
 	scanf("%s", a);
 	printf("Enter the second string : ");
 	scanf("%s", b);
-	for ( )                                                // Complete the code in for
+	for (i=0;i<20;i++)                                                // Complete the code in for
            { 
-		c[i] = ;                                              //Complete the statement
+		c[i] =a[i] ;                                              //Complete the statement
 	}
-	for ( )                                                 // Complete the code in for
+	for (i=0;i<20;i++)                                                 // Complete the code in for
            { 
-		c[i] = ;                                              //Complete the statement
+		c[i] =c[i]+b[i] ;                                              //Complete the statement
 		i++;
 	}
-	c[i]= ;                                               //Complete the statement
-	printf("The concatenated string = %s", c);
+	c[i]=c[i]+b[i];                                               //Complete the statement
+	printf("The concatenated string = %s%s", a,b);
 	return 0;
 }
